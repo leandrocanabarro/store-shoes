@@ -40,5 +40,6 @@ module.exports = {
     'react/state-in-constructor': 'off',
     'react/static-property-placement': 'off',
     'react/jsx-one-expression-per-line': 'off',
+    'jsx-a11y/control-has-associated-label': 'off',
   },
 };
