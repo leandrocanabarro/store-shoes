@@ -44,5 +44,6 @@ module.exports = {
     'react/prefer-stateless-function': 'off',
     'no-param-reassign': 'off',
     "no-console": ["error", { allow: ["tron"] }],
+    'react/prop-types': 'off',
   },
 };
