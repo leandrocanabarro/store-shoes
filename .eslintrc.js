@@ -5,9 +5,9 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
+    'airbnb',
     'prettier',
     'prettier/react',
-    'airbnb',
   ],
   globals: {
     Atomics: 'readonly',
@@ -41,5 +41,7 @@ module.exports = {
     'react/static-property-placement': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'jsx-a11y/control-has-associated-label': 'off',
+    'react/prefer-stateless-function': 'off',
+    'no-param-reassign': 'off',
   },
 };
